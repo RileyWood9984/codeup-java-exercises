@@ -8,6 +8,7 @@ public class ServerNameGenerator {
         return Adj[rand]+"-"+Noun[rand2];
     }
     public static void main(String[] args) {
+        System.out.println("Here is your dedicated sever name:");
         System.out.println(Generator(adj,noun));
     }
 }
